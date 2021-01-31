@@ -13,7 +13,7 @@ int main(int argc, const char * argv[]) {
     printf("Hello, World!\n");
     char mesg[] = "test message";
     char *text = mesg;
-    printf("before %s\n", text);
+    printf("before... %s\n", text);
     printf("%s\n",my_encrypt(text));
     printf("Done\n");
     return 0;
